@@ -1,0 +1,51 @@
+@media (max-width:1200px){
+
+    html{
+        font-size: 70%;
+    }
+}
+
+
+
+.menu .box-container{
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:8.5rem;
+}
+
+.menu h1{
+    text-align: center;
+}
+
+.menu .box-container .box{
+    padding: 0;
+    text-align: center;
+    border: solid; 
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+
+.menu .box-container .box h3{
+    color: #000;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.menu .box-container .box .price{
+    color: #000;
+    font-size: 1.5rem;
+    padding:.5rem 0;
+}
+
+.menu .box-container .box .price .btn{
+    text-align: center;
+}
+
+.menu .box-container .box:hover{
+    background:#fff;
+}
+
+
